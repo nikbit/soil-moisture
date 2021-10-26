@@ -1,5 +1,4 @@
 let Umidità = 0
-basic.showString("IC Cassano - de Renzio ")
 basic.forever(function () {
     Umidità = pins.analogReadPin(AnalogPin.P0)
     led.plotBarGraph(
